@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upload</title>
+  </head>
+  <body>
+    <div>
+      <div>
+        <a href="/download"><button>下载</button> </a>
+      </div>
+      <br />
+      <div>
+        <form action="/upload" enctype="multipart/form-data" method="post">
+          <input type="file" name="file" id="fileToUpload" />
+          <input type="submit" value="上传" name="submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
